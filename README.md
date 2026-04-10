@@ -12,7 +12,6 @@ Goal is to prove that enrichment would be helpful to get accurate SBOMs. Accurat
 
 > [!NOTE]
 > target pkg chose based on lesser transitive dependencies.
-python3Packages.requests 
 
 ![path-info](./images/path-info.png)
 
