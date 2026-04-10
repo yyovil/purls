@@ -1,0 +1,510 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "serialNumber": "urn:uuid:c0c77ee1-87af-4c17-b0e7-487aad54b3b9",
+  "metadata": {
+    "timestamp": "2026-04-10T19:35:05.129413+05:30",
+    "properties": [
+      {
+        "name": "sbom_type",
+        "value": "runtime_only"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "TII",
+        "name": "sbomnix",
+        "version": "1.7.4"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "/nix/store/q5ji100z62nipavygp189580v85ssaj4-python3.13-requests-2.32.5.drv",
+      "name": "python3.13-requests",
+      "version": "2.32.5",
+      "purl": "pkg:nix/python3.13-requests@2.32.5",
+      "cpe": "cpe:2.3:a:python3.13-requests:python3.13-requests:2.32.5:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/0ywsvdlh6x1c1w4rb0mnaxzi8q2j7x6l-python3.13-requests-2.32.5"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/q5ji100z62nipavygp189580v85ssaj4-python3.13-requests-2.32.5.drv"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/a9mx1zmj4gzpn5v5m62lx6wkarisxqgv-bash-5.3p3.drv",
+      "name": "bash",
+      "version": "5.3p3",
+      "purl": "pkg:nix/bash@5.3p3",
+      "cpe": "cpe:2.3:a:gnu:bash:5.3p3:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/p0k9r5h8qs7220xdbdihhfgzwjcly70x-bash-5.3p3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/a9mx1zmj4gzpn5v5m62lx6wkarisxqgv-bash-5.3p3.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/lxz2gz0zcv5iwikb41kkn02k835nmaxm-bzip2-1.0.8.drv",
+      "name": "bzip2",
+      "version": "1.0.8",
+      "purl": "pkg:nix/bzip2@1.0.8",
+      "cpe": "cpe:2.3:a:bzip2:bzip2:1.0.8:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/yjrp55qn1ykjschb40sks6dvjxd0nv5q-bzip2-1.0.8"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/lxz2gz0zcv5iwikb41kkn02k835nmaxm-bzip2-1.0.8.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/nn29xhbd02544vayqrvicq72mxnwy572-expat-2.7.3.drv",
+      "name": "expat",
+      "version": "2.7.3",
+      "purl": "pkg:nix/expat@2.7.3",
+      "cpe": "cpe:2.3:a:expat:expat:2.7.3:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/vsys5r4r4vq6bn5d2sj2dzl81xxzjxdm-expat-2.7.3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/nn29xhbd02544vayqrvicq72mxnwy572-expat-2.7.3.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/rb9j67pj31qsaaf9w1c6dv45rf9qrmdw-gdbm-1.26.drv",
+      "name": "gdbm",
+      "version": "1.26",
+      "purl": "pkg:nix/gdbm@1.26",
+      "cpe": "cpe:2.3:a:gdbm:gdbm:1.26:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/9vnpncyg3iffkfrjiqyhyy024791yn7s-gdbm-1.26-lib"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/rb9j67pj31qsaaf9w1c6dv45rf9qrmdw-gdbm-1.26.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/yyh6c8xlm4hyr9f51zkws7jdk7frwy2n-libffi-40.drv",
+      "name": "libffi-40",
+      "version": "",
+      "purl": "pkg:nix/libffi-40",
+      "cpe": "cpe:2.3:a:libffi-40:libffi-40::*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/vaslk871v4x81iqgkw4wy8qmp9dph81b-libffi-40"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/yyh6c8xlm4hyr9f51zkws7jdk7frwy2n-libffi-40.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/havkl9xvddkvrg3vqpqjllf55qbl60ab-mailcap-2.1.54.drv",
+      "name": "mailcap",
+      "version": "2.1.54",
+      "purl": "pkg:nix/mailcap@2.1.54",
+      "cpe": "cpe:2.3:a:mailcap:mailcap:2.1.54:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/9p1a8lszl5i2wgaziihjxgxvjqw3vdjl-mailcap-2.1.54"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/havkl9xvddkvrg3vqpqjllf55qbl60ab-mailcap-2.1.54.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/5k65scm120vw9kpd4b9vfq1nh4si73lr-mpdecimal-4.0.1.drv",
+      "name": "mpdecimal",
+      "version": "4.0.1",
+      "purl": "pkg:nix/mpdecimal@4.0.1",
+      "cpe": "cpe:2.3:a:mpdecimal:mpdecimal:4.0.1:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/rx5dpxv89c0baqg30v8a6wqknqm8wcn3-mpdecimal-4.0.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/5k65scm120vw9kpd4b9vfq1nh4si73lr-mpdecimal-4.0.1.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/91ps8sch84nmmvbcqvhlabl12qsjsrml-ncurses-6.5.drv",
+      "name": "ncurses",
+      "version": "6.5",
+      "purl": "pkg:nix/ncurses@6.5",
+      "cpe": "cpe:2.3:a:ncurses:ncurses:6.5:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/i8xqlmxskym7gx8q9w6rpd1rbv9h4j3s-ncurses-6.5"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/91ps8sch84nmmvbcqvhlabl12qsjsrml-ncurses-6.5.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/vmnigafxiyphnqpn8gnv7k1vgsjwd1ki-nss-cacert-3.115.drv",
+      "name": "nss-cacert",
+      "version": "3.115",
+      "purl": "pkg:nix/nss-cacert@3.115",
+      "cpe": "cpe:2.3:a:nss-cacert:nss-cacert:3.115:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/z6hzprzrkqj48m9kk4xkzfs6v9hmrylj-nss-cacert-3.115"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/vmnigafxiyphnqpn8gnv7k1vgsjwd1ki-nss-cacert-3.115.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/zfg836p7bhddd7yv8iiifjp7mz4w7bcz-openssl-3.6.0.drv",
+      "name": "openssl",
+      "version": "3.6.0",
+      "purl": "pkg:nix/openssl@3.6.0",
+      "cpe": "cpe:2.3:a:openssl:openssl:3.6.0:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/3z54dgks2mz3dhwddj158sdibll8xmq5-openssl-3.6.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/zfg836p7bhddd7yv8iiifjp7mz4w7bcz-openssl-3.6.0.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv",
+      "name": "python3-3.13.9",
+      "version": "",
+      "purl": "pkg:nix/python3-3.13.9",
+      "cpe": "cpe:2.3:a:python3-3.13.9:python3-3.13.9::*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/xcjk9ill54kjk8mzgq6yydnx9015lidg-python3-3.13.9"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/wfvcsd85ikv0sn0r4c0z8nq6agik55nb-python3.13-certifi-2025.07.14.drv",
+      "name": "python3.13-certifi",
+      "version": "2025.07.14",
+      "purl": "pkg:nix/python3.13-certifi@2025.07.14",
+      "cpe": "cpe:2.3:a:python3.13-certifi:python3.13-certifi:2025.07.14:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/gjyb8r8spc6zr0x6lg1yfbns8kh0bc75-python3.13-certifi-2025.07.14"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/wfvcsd85ikv0sn0r4c0z8nq6agik55nb-python3.13-certifi-2025.07.14.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/64ksqdmbh6b9i9jw9ll84ry0h2yx6c5r-python3.13-charset-normalizer-3.4.3.drv",
+      "name": "python3.13-charset-normalizer",
+      "version": "3.4.3",
+      "purl": "pkg:nix/python3.13-charset-normalizer@3.4.3",
+      "cpe": "cpe:2.3:a:python3.13-charset-normalizer:python3.13-charset-normalizer:3.4.3:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/k58h7wr98fpzy1gc7y9jk0rdy61darjs-python3.13-charset-normalizer-3.4.3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/64ksqdmbh6b9i9jw9ll84ry0h2yx6c5r-python3.13-charset-normalizer-3.4.3.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/v9wmarqjx383hgwss0d87jgbnbqd3ww0-python3.13-idna-3.11.drv",
+      "name": "python3.13-idna",
+      "version": "3.11",
+      "purl": "pkg:nix/python3.13-idna@3.11",
+      "cpe": "cpe:2.3:a:python3.13-idna:python3.13-idna:3.11:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/b8s7lr3v96sqa95pkhqns5145v7d059j-python3.13-idna-3.11"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/v9wmarqjx383hgwss0d87jgbnbqd3ww0-python3.13-idna-3.11.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/gkzlv6r29ka3nygagl9fssyj40jb4h5s-python3.13-urllib3-2.5.0.drv",
+      "name": "python3.13-urllib3",
+      "version": "2.5.0",
+      "purl": "pkg:nix/python3.13-urllib3@2.5.0",
+      "cpe": "cpe:2.3:a:python3.13-urllib3:python3.13-urllib3:2.5.0:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/ggi1g8wcp4gf2favw82h1qh1nyy16pxl-python3.13-urllib3-2.5.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/gkzlv6r29ka3nygagl9fssyj40jb4h5s-python3.13-urllib3-2.5.0.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/lwwvlscgvn0mx8bz0nwcs6mb5pzh9h3s-readline-8.3p1.drv",
+      "name": "readline",
+      "version": "8.3p1",
+      "purl": "pkg:nix/readline@8.3p1",
+      "cpe": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/p370zlhrhvg67aizys1hfqcr6p06r7w9-readline-8.3p1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/lwwvlscgvn0mx8bz0nwcs6mb5pzh9h3s-readline-8.3p1.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/2q6qcpyxd9aj9wpginkm593yxw1f30mw-sqlite-3.50.4.drv",
+      "name": "sqlite",
+      "version": "3.50.4",
+      "purl": "pkg:nix/sqlite@3.50.4",
+      "cpe": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/dfjhk9hdzfwb5jvhsya30lk1ipz92jr9-sqlite-3.50.4"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/2q6qcpyxd9aj9wpginkm593yxw1f30mw-sqlite-3.50.4.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/qvkyb3i0xmz926wanzd7ibzfcnn10day-tzdata-2025b.drv",
+      "name": "tzdata",
+      "version": "2025b",
+      "purl": "pkg:nix/tzdata@2025b",
+      "cpe": "cpe:2.3:a:tzdata:tzdata:2025b:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/s1qdgw08hh8l9mmsjrwh139j7xqmlihn-tzdata-2025b"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/qvkyb3i0xmz926wanzd7ibzfcnn10day-tzdata-2025b.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/dfsx3bna7ksm5z9s0dxbvka4pn83knv5-xz-5.8.1.drv",
+      "name": "xz",
+      "version": "5.8.1",
+      "purl": "pkg:nix/xz@5.8.1",
+      "cpe": "cpe:2.3:a:xz:xz:5.8.1:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/y13ig7is413lhzsbs1njm0g80lxrv40d-xz-5.8.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/dfsx3bna7ksm5z9s0dxbvka4pn83knv5-xz-5.8.1.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/5f62lnjhyf8c5lcmxk0kf8ygd0zazx2x-zlib-1.3.1.drv",
+      "name": "zlib",
+      "version": "1.3.1",
+      "purl": "pkg:nix/zlib@1.3.1",
+      "cpe": "cpe:2.3:a:zlib:zlib:1.3.1:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/2cmpxhlznqq6hw33lk47d2hv45hr2af7-zlib-1.3.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/5f62lnjhyf8c5lcmxk0kf8ygd0zazx2x-zlib-1.3.1.drv"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "/nix/store/a9mx1zmj4gzpn5v5m62lx6wkarisxqgv-bash-5.3p3.drv"
+    },
+    {
+      "ref": "/nix/store/lxz2gz0zcv5iwikb41kkn02k835nmaxm-bzip2-1.0.8.drv"
+    },
+    {
+      "ref": "/nix/store/nn29xhbd02544vayqrvicq72mxnwy572-expat-2.7.3.drv"
+    },
+    {
+      "ref": "/nix/store/rb9j67pj31qsaaf9w1c6dv45rf9qrmdw-gdbm-1.26.drv"
+    },
+    {
+      "ref": "/nix/store/yyh6c8xlm4hyr9f51zkws7jdk7frwy2n-libffi-40.drv"
+    },
+    {
+      "ref": "/nix/store/havkl9xvddkvrg3vqpqjllf55qbl60ab-mailcap-2.1.54.drv"
+    },
+    {
+      "ref": "/nix/store/5k65scm120vw9kpd4b9vfq1nh4si73lr-mpdecimal-4.0.1.drv"
+    },
+    {
+      "ref": "/nix/store/91ps8sch84nmmvbcqvhlabl12qsjsrml-ncurses-6.5.drv"
+    },
+    {
+      "ref": "/nix/store/vmnigafxiyphnqpn8gnv7k1vgsjwd1ki-nss-cacert-3.115.drv"
+    },
+    {
+      "ref": "/nix/store/zfg836p7bhddd7yv8iiifjp7mz4w7bcz-openssl-3.6.0.drv"
+    },
+    {
+      "ref": "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv",
+      "dependsOn": [
+        "/nix/store/2q6qcpyxd9aj9wpginkm593yxw1f30mw-sqlite-3.50.4.drv",
+        "/nix/store/5f62lnjhyf8c5lcmxk0kf8ygd0zazx2x-zlib-1.3.1.drv",
+        "/nix/store/5k65scm120vw9kpd4b9vfq1nh4si73lr-mpdecimal-4.0.1.drv",
+        "/nix/store/91ps8sch84nmmvbcqvhlabl12qsjsrml-ncurses-6.5.drv",
+        "/nix/store/a9mx1zmj4gzpn5v5m62lx6wkarisxqgv-bash-5.3p3.drv",
+        "/nix/store/dfsx3bna7ksm5z9s0dxbvka4pn83knv5-xz-5.8.1.drv",
+        "/nix/store/havkl9xvddkvrg3vqpqjllf55qbl60ab-mailcap-2.1.54.drv",
+        "/nix/store/lwwvlscgvn0mx8bz0nwcs6mb5pzh9h3s-readline-8.3p1.drv",
+        "/nix/store/lxz2gz0zcv5iwikb41kkn02k835nmaxm-bzip2-1.0.8.drv",
+        "/nix/store/nn29xhbd02544vayqrvicq72mxnwy572-expat-2.7.3.drv",
+        "/nix/store/qvkyb3i0xmz926wanzd7ibzfcnn10day-tzdata-2025b.drv",
+        "/nix/store/rb9j67pj31qsaaf9w1c6dv45rf9qrmdw-gdbm-1.26.drv",
+        "/nix/store/yyh6c8xlm4hyr9f51zkws7jdk7frwy2n-libffi-40.drv",
+        "/nix/store/zfg836p7bhddd7yv8iiifjp7mz4w7bcz-openssl-3.6.0.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/wfvcsd85ikv0sn0r4c0z8nq6agik55nb-python3.13-certifi-2025.07.14.drv",
+      "dependsOn": [
+        "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv",
+        "/nix/store/vmnigafxiyphnqpn8gnv7k1vgsjwd1ki-nss-cacert-3.115.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/64ksqdmbh6b9i9jw9ll84ry0h2yx6c5r-python3.13-charset-normalizer-3.4.3.drv",
+      "dependsOn": [
+        "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv",
+        "/nix/store/a9mx1zmj4gzpn5v5m62lx6wkarisxqgv-bash-5.3p3.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/v9wmarqjx383hgwss0d87jgbnbqd3ww0-python3.13-idna-3.11.drv",
+      "dependsOn": [
+        "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/q5ji100z62nipavygp189580v85ssaj4-python3.13-requests-2.32.5.drv",
+      "dependsOn": [
+        "/nix/store/64ksqdmbh6b9i9jw9ll84ry0h2yx6c5r-python3.13-charset-normalizer-3.4.3.drv",
+        "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv",
+        "/nix/store/gkzlv6r29ka3nygagl9fssyj40jb4h5s-python3.13-urllib3-2.5.0.drv",
+        "/nix/store/v9wmarqjx383hgwss0d87jgbnbqd3ww0-python3.13-idna-3.11.drv",
+        "/nix/store/wfvcsd85ikv0sn0r4c0z8nq6agik55nb-python3.13-certifi-2025.07.14.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/gkzlv6r29ka3nygagl9fssyj40jb4h5s-python3.13-urllib3-2.5.0.drv",
+      "dependsOn": [
+        "/nix/store/6njqakbkci2h765gyj0q9rcmkfy38hya-python3-3.13.9.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/lwwvlscgvn0mx8bz0nwcs6mb5pzh9h3s-readline-8.3p1.drv",
+      "dependsOn": [
+        "/nix/store/91ps8sch84nmmvbcqvhlabl12qsjsrml-ncurses-6.5.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/2q6qcpyxd9aj9wpginkm593yxw1f30mw-sqlite-3.50.4.drv",
+      "dependsOn": [
+        "/nix/store/5f62lnjhyf8c5lcmxk0kf8ygd0zazx2x-zlib-1.3.1.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/qvkyb3i0xmz926wanzd7ibzfcnn10day-tzdata-2025b.drv"
+    },
+    {
+      "ref": "/nix/store/dfsx3bna7ksm5z9s0dxbvka4pn83knv5-xz-5.8.1.drv"
+    },
+    {
+      "ref": "/nix/store/5f62lnjhyf8c5lcmxk0kf8ygd0zazx2x-zlib-1.3.1.drv"
+    }
+  ]
+}
